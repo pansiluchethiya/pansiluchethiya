@@ -82,17 +82,29 @@ def human_duration(seconds: float) -> str:
 
 def main() -> None:
     key = api_key()
-    stats_payload = get_json("/users/current/stats/last_7_days", key)
-    stats = stats_payload.get("data") or {}
     user_payload = get_json("/users/current", key)
     user = user_payload.get("data") or {}
     username = user.get("username") or ""
+    print(f"WakaTime account: {username or 'unknown'} ({user.get('email') or 'no email on file'})")
+
+    # Prefer the last seven days, but fall back to a longer window so the card
+    # still shows real numbers for accounts that only code occasionally.
+    range_name = "last 7 days"
+    stats_payload = get_json("/users/current/stats/last_7_days", key)
+    stats = stats_payload.get("data") or {}
+    if float(stats.get("total_seconds") or 0) <= 0:
+        stats = get_json("/users/current/stats/last_30_days", key).get("data") or {}
+        range_name = "last 30 days"
 
     total_seconds = float(stats.get("total_seconds") or 0)
     daily_seconds = float(stats.get("daily_average") or 0)
     languages = stats.get("languages") or []
     editors = stats.get("editors") or []
     top_editor = editors[0]["name"] if editors else "—"
+    print(
+        f"WakaTime window: {range_name}, {total_seconds:.0f}s total, "
+        f"{len(languages)} languages, {len(editors)} editors"
+    )
 
     language_rows = []
     for index, language in enumerate(languages[:3]):
@@ -109,7 +121,7 @@ def main() -> None:
 
     if not language_rows:
         language_rows.append(
-            f'<text x="28" y="240" font-family="{FONT}" font-size="13" fill="{MUTED}">No language data in the last 7 days.</text>'
+            f'<text x="28" y="240" font-family="{FONT}" font-size="13" fill="{MUTED}">No language data in the {range_name}.</text>'
         )
 
     updated = datetime.now(timezone.utc).strftime("%d %b %Y · %H:%M UTC")
@@ -117,30 +129,31 @@ def main() -> None:
     no_activity = total_seconds <= 0
     coding_value = "0m" if no_activity else human_duration(total_seconds)
     average_value = "0m" if daily_seconds <= 0 else human_duration(daily_seconds)
+    short_range = range_name.replace("last ", "")
 
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{CARD_WIDTH}" height="{CARD_HEIGHT}" viewBox="0 0 {CARD_WIDTH} {CARD_HEIGHT}" role="img" aria-labelledby="wakaTitle wakaDesc">
   <title id="wakaTitle">WakaTime coding activity</title>
-  <desc id="wakaDesc">Coding time in the last seven days: {coding_value}. Daily average: {average_value}. Top editor: {svg_text(top_editor)}.</desc>
+  <desc id="wakaDesc">Coding time in the {range_name}: {coding_value}. Daily average: {average_value}. Top editor: {svg_text(top_editor)}.</desc>
   <rect width="{CARD_WIDTH}" height="{CARD_HEIGHT}" rx="16" fill="{BG}"/>
   <rect x="0.5" y="0.5" width="{CARD_WIDTH - 1}" height="{CARD_HEIGHT - 1}" rx="15.5" fill="none" stroke="{BORDER}"/>
   <text x="28" y="40" font-family="{FONT}" font-size="20" font-weight="700" fill="{TEXT}">WakaTime</text>
-  <text x="28" y="62" font-family="{FONT}" font-size="11.5" fill="{MUTED}">Coding activity for the last 7 days</text>
+  <text x="28" y="62" font-family="{FONT}" font-size="11.5" fill="{MUTED}">Coding activity for the {range_name}</text>
   <text x="832" y="40" text-anchor="end" font-family="{MONO}" font-size="10.5" fill="{DIM}">{svg_text(handle)}</text>
 
   <rect x="24" y="84" width="260" height="86" rx="10" fill="{PANEL}" stroke="#21262d"/>
   <text x="42" y="108" font-family="{FONT}" font-size="10.5" font-weight="600" letter-spacing="1.1" fill="{GREEN}">CODING TIME</text>
   <text x="42" y="146" font-family="{FONT}" font-size="30" font-weight="700" fill="{TEXT}">{svg_text(coding_value)}</text>
-  <text x="42" y="162" font-family="{FONT}" font-size="10.5" fill="{DIM}">{'no activity recorded' if no_activity else 'last 7 days'}</text>
+  <text x="42" y="162" font-family="{FONT}" font-size="10.5" fill="{DIM}">{'no activity recorded' if no_activity else short_range}</text>
 
   <rect x="300" y="84" width="260" height="86" rx="10" fill="{PANEL}" stroke="#21262d"/>
   <text x="318" y="108" font-family="{FONT}" font-size="10.5" font-weight="600" letter-spacing="1.1" fill="{BLUE}">DAILY AVERAGE</text>
   <text x="318" y="146" font-family="{FONT}" font-size="30" font-weight="700" fill="{TEXT}">{svg_text(average_value)}</text>
-  <text x="318" y="162" font-family="{FONT}" font-size="10.5" fill="{DIM}">across the last 7 days</text>
+  <text x="318" y="162" font-family="{FONT}" font-size="10.5" fill="{DIM}">across the {short_range}</text>
 
   <rect x="576" y="84" width="260" height="86" rx="10" fill="{PANEL}" stroke="#21262d"/>
   <text x="594" y="108" font-family="{FONT}" font-size="10.5" font-weight="600" letter-spacing="1.1" fill="{PURPLE}">TOP EDITOR</text>
   <text x="594" y="146" font-family="{FONT}" font-size="24" font-weight="700" fill="{TEXT}">{svg_text(top_editor)}</text>
-  <text x="594" y="162" font-family="{FONT}" font-size="10.5" fill="{DIM}">most used this week</text>
+  <text x="594" y="162" font-family="{FONT}" font-size="10.5" fill="{DIM}">most used in this period</text>
 
   <text x="28" y="204" font-family="{FONT}" font-size="12" font-weight="600" fill="{MUTED}">LANGUAGES</text>
   {''.join(language_rows)}
@@ -149,7 +162,7 @@ def main() -> None:
 </svg>"""
 
     write_svg("assets/wakatime.svg", svg)
-    print(f"WakaTime card generated for {handle}: {coding_value} in the last 7 days.")
+    print(f"WakaTime card generated for {handle}: {coding_value} in the {range_name}.")
 
 
 if __name__ == "__main__":
