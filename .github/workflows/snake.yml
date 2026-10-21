@@ -30,7 +30,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          cd dist
+          # The action runs in a container, so the generated folder is owned by
+          # root. Copy the files into a fresh directory before initialising git.
+          rm -rf snake-publish
+          mkdir -p snake-publish
+          cp dist/*.svg snake-publish/
+          cd snake-publish
           git init -q -b output
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
