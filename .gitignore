@@ -1,0 +1,11 @@
+# Local environment
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Editor noise
+.idea/
+.vscode/
+*.swp

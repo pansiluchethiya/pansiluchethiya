@@ -1,0 +1,11 @@
+{
+  "login": "pansiluchethiya",
+  "name": "Pansilu Chethiya",
+  "headline": "Student Developer • AI Builder • Open Source Enthusiast",
+  "message": "I like turning weird ideas into things people can actually use.",
+  "location": "localhost:5001",
+  "emails": {
+    "proton": "pansiluch@proton.me",
+    "gmail": "pansiluco@gmail.com"
+  }
+}

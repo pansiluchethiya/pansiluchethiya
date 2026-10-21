@@ -1,0 +1,60 @@
+name: WakaTime
+
+on:
+  schedule:
+    - cron: "41 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wakatime
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Refresh the WakaTime card
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check whether a WakaTime key is configured
+        id: check
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |
+          if [ -z "${WAKATIME_API_KEY}" ]; then
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "WAKATIME_API_KEY is not configured; skipping."
+          else
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate the WakaTime card
+        if: steps.check.outputs.enabled == 'true'
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: python scripts/generate_wakatime.py
+
+      - name: Update the README section
+        if: steps.check.outputs.enabled == 'true'
+        run: python scripts/update_readme.py
+
+      - name: Commit the refreshed card
+        if: steps.check.outputs.enabled == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets
+          if git diff --cached --quiet; then
+            echo "WakaTime card already up to date."
+            exit 0
+          fi
+          git commit -q -m "chore: refresh wakatime stats [skip ci]"
+          git push

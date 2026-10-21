@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-10-21T12:48:13Z",
+  "projects": [
+    {
+      "title": "Peak Stream",
+      "private": false,
+      "description": "Self-hosted movie streaming stack: Fastify + SQLite + Redis API, a Next.js player and admin, all behind one Docker Compose.",
+      "tech": [
+        "TypeScript",
+        "Fastify",
+        "Next.js",
+        "React",
+        "SQLite",
+        "Redis",
+        "Docker"
+      ],
+      "url": "https://github.com/pansiluchethiya/peak-backend",
+      "stars": 1,
+      "language": "TypeScript",
+      "live_url": "https://stream.pansilu.cc.cd",
+      "live_label": "web app",
+      "frontend_url": "https://github.com/pansiluchethiya/stream"
+    },
+    {
+      "title": "Wells Health",
+      "private": true,
+      "description": "Private health project. Details available on request.",
+      "tech": [],
+      "url": null,
+      "stars": 0,
+      "language": "",
+      "live_url": null,
+      "live_label": "live",
+      "frontend_url": null
+    },
+    {
+      "title": "Blink",
+      "private": false,
+      "description": "A fully featured browser-first chat web-application with awesome UI and advanced browser support",
+      "tech": [
+        "TypeScript",
+        "React",
+        "Socket.IO",
+        "Express",
+        "Prisma",
+        "PostgreSQL",
+        "Tailwind CSS"
+      ],
+      "url": "https://github.com/pansiluchethiya/Blink",
+      "stars": 1,
+      "language": "TypeScript",
+      "live_url": "https://blink.koyeb.app/",
+      "live_label": "live demo",
+      "frontend_url": null
+    },
+    {
+      "title": "Medik Triage",
+      "private": false,
+      "description": "A diagnostic AI system called medik. Built for the spark exhibition.",
+      "tech": [
+        "TypeScript",
+        "React",
+        "Vite",
+        "Express",
+        "Tailwind CSS",
+        "Cloudflare"
+      ],
+      "url": "https://github.com/pansiluchethiya/spark-26-medik-ai",
+      "stars": 1,
+      "language": "TypeScript",
+      "live_url": "https://medik.us.ci",
+      "live_label": "live demo",
+      "frontend_url": null
+    },
+    {
+      "title": "Crawlier",
+      "private": false,
+      "description": "A python3 web crawling library used to crawl multiple pages at once with both mobile and desktop user agents.",
+      "tech": [
+        "Python",
+        "Beautiful Soup",
+        "lxml",
+        "requests"
+      ],
+      "url": "https://github.com/pansiluchethiya/Crawlier",
+      "stars": 1,
+      "language": "Python",
+      "live_url": "https://pypi.org/project/crawlier/",
+      "live_label": "PyPI",
+      "frontend_url": null
+    }
+  ]
+}

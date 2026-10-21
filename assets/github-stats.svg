@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="300" viewBox="0 0 860 300" role="img" aria-labelledby="statsTitle statsDesc">
+  <title id="statsTitle">GitHub stats for pansiluchethiya</title>
+  <desc id="statsDesc">Repositories, stars earned, contributions, private contributions, best day, and top language for pansiluchethiya.</desc>
+  <rect width="860" height="300" rx="16" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="859" height="299" rx="15.5" fill="none" stroke="#30363d"/>
+  <text x="28" y="40" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#e6edf3">GitHub stats</text>
+  <text x="28" y="62" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#8b949e">@pansiluchethiya · owned public repositories · last 12 months</text>
+  <text x="832" y="40" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#6e7681">21 Oct 2026 · 12:48 UTC</text>
+  
+  <g>
+    <rect x="24" y="86" width="260" height="82" rx="10" fill="#161b22" stroke="#21262d"/>
+    <text x="42" y="110" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600"
+      letter-spacing="1.1" fill="#3fb950">REPOSITORIES</text>
+    <text x="42" y="145" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="700"
+      fill="#e6edf3">6</text>
+    <text x="42" y="161" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5"
+      fill="#6e7681">public · forks included</text>
+  </g>
+  <g>
+    <rect x="298" y="86" width="260" height="82" rx="10" fill="#161b22" stroke="#21262d"/>
+    <text x="316" y="110" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600"
+      letter-spacing="1.1" fill="#d29922">STARS EARNED</text>
+    <text x="316" y="145" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="700"
+      fill="#e6edf3">5</text>
+    <text x="316" y="161" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5"
+      fill="#6e7681">across 5 repos</text>
+  </g>
+  <g>
+    <rect x="572" y="86" width="260" height="82" rx="10" fill="#161b22" stroke="#21262d"/>
+    <text x="590" y="110" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600"
+      letter-spacing="1.1" fill="#58a6ff">CONTRIBUTIONS</text>
+    <text x="590" y="145" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="700"
+      fill="#e6edf3">39</text>
+    <text x="590" y="161" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5"
+      fill="#6e7681">last 12 months</text>
+  </g>
+  <g>
+    <rect x="24" y="182" width="260" height="82" rx="10" fill="#161b22" stroke="#21262d"/>
+    <text x="42" y="206" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600"
+      letter-spacing="1.1" fill="#bc8cff">PRIVATE CONTRIBUTIONS</text>
+    <text x="42" y="241" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="700"
+      fill="#e6edf3">0</text>
+    <text x="42" y="257" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5"
+      fill="#6e7681">none shared</text>
+  </g>
+  <g>
+    <rect x="298" y="182" width="260" height="82" rx="10" fill="#161b22" stroke="#21262d"/>
+    <text x="316" y="206" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600"
+      letter-spacing="1.1" fill="#f0883e">BEST DAY</text>
+    <text x="316" y="241" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="700"
+      fill="#e6edf3">15</text>
+    <text x="316" y="257" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5"
+      fill="#6e7681">07 Oct 2026</text>
+  </g>
+  <g>
+    <rect x="572" y="182" width="260" height="82" rx="10" fill="#161b22" stroke="#21262d"/>
+    <text x="590" y="206" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600"
+      letter-spacing="1.1" fill="#f778ba">TOP LANGUAGE</text>
+    <text x="590" y="241" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="700"
+      fill="#e6edf3">TypeScript</text>
+    <text x="590" y="257" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5"
+      fill="#6e7681">68.8% of tracked code</text>
+  </g>
+  <text x="28" y="286" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" fill="#6e7681">Rebuilt daily from the GitHub API · private contribution count only appears if shared</text>
+</svg>

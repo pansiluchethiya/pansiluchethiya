@@ -1,0 +1,37 @@
+{
+  "owner": "pansiluchethiya",
+  "projects": [
+    {
+      "title": "Peak Stream",
+      "repo": "peak-backend",
+      "frontend_repo": "stream",
+      "description": "Self-hosted movie streaming stack: Fastify + SQLite + Redis API, a Next.js player and admin, all behind one Docker Compose.",
+      "live_label": "web app",
+      "tech": ["TypeScript", "Fastify", "Next.js", "React", "SQLite", "Redis", "Docker"]
+    },
+    {
+      "title": "Wells Health",
+      "private": true,
+      "description": "Private health project. Details available on request.",
+      "tech": []
+    },
+    {
+      "title": "Blink",
+      "repo": "Blink",
+      "live_label": "live demo",
+      "tech": ["TypeScript", "React", "Socket.IO", "Express", "Prisma", "PostgreSQL", "Tailwind CSS"]
+    },
+    {
+      "title": "Medik Triage",
+      "repo": "spark-26-medik-ai",
+      "live_label": "live demo",
+      "tech": ["TypeScript", "React", "Vite", "Express", "Tailwind CSS", "Cloudflare"]
+    },
+    {
+      "title": "Crawlier",
+      "repo": "Crawlier",
+      "live_label": "PyPI",
+      "tech": ["Python", "Beautiful Soup", "lxml", "requests"]
+    }
+  ]
+}
