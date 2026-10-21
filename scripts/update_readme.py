@@ -23,8 +23,7 @@ SNAKE_START = "<!-- SNAKE:START -->"
 SNAKE_END = "<!-- SNAKE:END -->"
 
 SNAKE_BASE = "https://raw.githubusercontent.com/pansiluchethiya/pansiluchethiya/output"
-SNAKE_LIGHT = f"{SNAKE_BASE}/github-contribution-grid-snake.svg"
-SNAKE_DARK = f"{SNAKE_BASE}/github-contribution-grid-snake-dark.svg"
+SNAKE_SVG = f"{SNAKE_BASE}/github-contribution-grid-snake.svg"
 
 ASSET_REF = re.compile(r'(src=")(assets/[\w.-]+\.svg)(")')
 
@@ -79,10 +78,9 @@ def render_wakatime() -> str:
 
 def render_snake() -> str:
     version = utc_now().astimezone(timezone.utc).strftime("%Y-%m-%d")
-    return f"""<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="{SNAKE_DARK}?v={version}" />
-  <img alt="Animated snake crawling across the contribution graph" src="{SNAKE_LIGHT}?v={version}" />
-</picture>"""
+    return f"""<p align="center">
+  <img src="{SNAKE_SVG}?v={version}" alt="Animated snake crawling across the contribution graph" width="100%" />
+</p>"""
 
 
 def asset_version(path: str) -> str:

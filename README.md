@@ -111,10 +111,9 @@ My daily drivers for writing, reviewing and shipping code.
 ## Contribution Snake
 
 <!-- SNAKE:START -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pansiluchethiya/pansiluchethiya/output/github-contribution-grid-snake-dark.svg?v=2026-10-21" />
-  <img alt="Animated snake crawling across the contribution graph" src="https://raw.githubusercontent.com/pansiluchethiya/pansiluchethiya/output/github-contribution-grid-snake.svg?v=2026-10-21" />
-</picture>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pansiluchethiya/pansiluchethiya/output/github-contribution-grid-snake.svg?v=2026-10-21" alt="Animated snake crawling across the contribution graph" width="100%" />
+</p>
 <!-- SNAKE:END -->
 
 ---

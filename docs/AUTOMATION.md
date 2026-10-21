@@ -61,10 +61,9 @@ python scripts/fetch_fun_facts.py --target 500
 
 ## The snake
 
-`snake.yml` runs [`Platane/snk`](https://github.com/Platane/snk) with the
-`github-dark` palette and pushes the result to the **`output` branch** of this
-repository. The README points at that branch with a `<picture>` element so the dark
-variant is used automatically.
+`snake.yml` runs [`Platane/snk`](https://github.com/Platane/snk) with the `github-dark`
+palette and pushes the result to the **`output` branch** of this repository. The README points
+at that branch and the card is regenerated every day.
 
 The `output` branch is generated content — do not commit to it by hand.
 
