@@ -44,7 +44,7 @@ def render(profile: dict) -> str:
     ]
 
     term_rows = []
-    y = 96
+    y = 140
     for prompt, content, color in terminal_lines:
         if prompt:
             term_rows.append(
@@ -97,12 +97,8 @@ def render(profile: dict) -> str:
 
   <g>
     <rect x="756" y="66" width="380" height="228" rx="14" fill="{PANEL}" stroke="#21262d"/>
-    <path d="M770 66a14 14 0 0 1 14-14h324a14 14 0 0 1 14 14v26H756V80a14 14 0 0 1 14-14z" fill="#1c2128"/>
-    <line x1="756" y1="92" x2="1136" y2="92" stroke="{BORDER}"/>
-    <circle cx="778" cy="72" r="4.5" fill="#ff5f56"/>
-    <circle cx="794" cy="72" r="4.5" fill="#ffbd2e"/>
-    <circle cx="810" cy="72" r="4.5" fill="#27c93f"/>
-    <text x="946" y="76" text-anchor="middle" font-family="{MONO}" font-size="11" fill="{DIM}">zsh — 96x28</text>
+    <text x="780" y="96" font-family="{MONO}" font-size="11.5" fill="{DIM}">~/projects</text>
+    <line x1="780" y1="110" x2="1112" y2="110" stroke="#21262d"/>
     {''.join(term_rows)}
     <rect x="806" y="{y - 17}" width="8" height="15" fill="{GREEN}">
       <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>

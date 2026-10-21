@@ -30,7 +30,7 @@ from lib import (
 )
 
 CARD_WIDTH = 860
-CARD_HEIGHT = 190
+CARD_HEIGHT = 186
 
 
 def pick(pool: list[str], state: dict, prefix: str, hour: int) -> tuple[int, str]:
@@ -56,8 +56,13 @@ def render(text: str, updated_label: str) -> str:
         line_height = 22
         lines = wrap_text(text, 114)
     lines = lines[:3]
+
+    region_top, region_bottom = 82, 150
+    block_height = (len(lines) - 1) * line_height
+    start_y = region_top + max(0, (region_bottom - region_top - block_height) // 2)
+
     body = "\n".join(
-        f'<text x="28" y="{104 + index * line_height}" font-family="{FONT}" '
+        f'<text x="28" y="{start_y + index * line_height}" font-family="{FONT}" '
         f'font-size="{size}" fill="{TEXT}">{svg_text(line)}</text>'
         for index, line in enumerate(lines)
     )
@@ -67,17 +72,11 @@ def render(text: str, updated_label: str) -> str:
   <desc id="factDesc">{svg_text(text)}</desc>
   <rect width="{CARD_WIDTH}" height="{CARD_HEIGHT}" rx="16" fill="{BG}"/>
   <rect x="0.5" y="0.5" width="{CARD_WIDTH - 1}" height="{CARD_HEIGHT - 1}" rx="15.5" fill="none" stroke="{BORDER}"/>
-  <path d="M0 16a16 16 0 0 1 16-16h828a16 16 0 0 1 16 16v22H0z" fill="{PANEL}"/>
-  <line x1="0" y1="38" x2="{CARD_WIDTH}" y2="38" stroke="{BORDER}"/>
-  <circle cx="22" cy="19" r="4" fill="#ff5f56"/>
-  <circle cx="38" cy="19" r="4" fill="#ffbd2e"/>
-  <circle cx="54" cy="19" r="4" fill="#27c93f"/>
-  <text x="76" y="23" font-family="{MONO}" font-size="11" fill="{MUTED}">data/fun-facts.json</text>
-  <text x="832" y="23" text-anchor="end" font-family="{MONO}" font-size="10" fill="{DIM}">hourly</text>
-  <text x="28" y="70" font-family="{MONO}" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="{GREEN}">FUN FACT</text>
+  <text x="28" y="46" font-family="{MONO}" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="{GREEN}">FUN FACT</text>
+  <text x="832" y="46" text-anchor="end" font-family="{MONO}" font-size="10" fill="{DIM}">rotates every hour</text>
+  <line x1="28" y1="60" x2="832" y2="60" stroke="#21262d"/>
   {body}
-  <text x="28" y="176" font-family="{FONT}" font-size="10" fill="{DIM}">↻ rotates every hour</text>
-  <text x="832" y="176" text-anchor="end" font-family="{MONO}" font-size="10" fill="{DIM}">updated {svg_text(updated_label)}</text>
+  <text x="832" y="{CARD_HEIGHT - 14}" text-anchor="end" font-family="{MONO}" font-size="10" fill="{DIM}">updated {svg_text(updated_label)}</text>
 </svg>"""
 
 

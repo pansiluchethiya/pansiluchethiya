@@ -69,18 +69,24 @@ The `output` branch is generated content — do not commit to it by hand.
 
 ## WakaTime
 
-WakaTime usernames cannot be discovered from a GitHub profile, so the section stays as a
-clearly marked placeholder until an API key is provided.
+The WakaTime section is connected. The API key lives in the repository secret
+`WAKATIME_API_KEY` (never in the code) and `scripts/generate_wakatime.py` uses it to render
+`assets/wakatime.svg` every six hours.
 
-1. Create an API key at <https://wakatime.com/settings/api-key> (the free plan is
-   enough).
-2. Add it as a repository secret: **Settings → Secrets and variables → Actions →
-   New repository secret**, name `WAKATIME_API_KEY`.
-3. Optionally run the `WakaTime` workflow once from the Actions tab.
+The card is built from the **durations** endpoint rather than the statistics endpoint, because
+WakaTime's statistics endpoints only count human coding time — accounts whose sessions are
+tracked as AI coding report `0` there even though the dashboard shows real hours. The card
+shows the total coding time, the daily average, the most active day, and the language and
+editor breakdown when the sessions carry that metadata.
 
-The generator authenticates with `/users/current`, so the username is resolved
-automatically and nothing else needs to be configured. The card then shows total coding
-time, the daily average, the top editor and the top languages for the last seven days.
+To use a different WakaTime account, replace the secret:
+
+```bash
+gh secret set WAKATIME_API_KEY --body "waka_..."
+```
+
+The username is resolved automatically through `/users/current`; set a username in your
+WakaTime profile settings and it starts appearing on the card.
 
 ## Private repositories
 
