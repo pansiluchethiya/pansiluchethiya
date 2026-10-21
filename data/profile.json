@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-21T12:48:06Z",
+  "generated_at": "2026-10-21T13:19:48Z",
   "login": "pansiluchethiya",
   "name": "Pansilu Chethiya",
   "bio": "A young, inspired developer whose hobby is creating random, fun projects. ",
-  "repositories": 6,
-  "original_repositories": 3,
+  "repositories": 7,
+  "original_repositories": 4,
   "forks": 3,
-  "stars": 5,
-  "starred_repositories": 5,
-  "followers": 0,
+  "stars": 6,
+  "starred_repositories": 6,
+  "followers": 1,
   "following": 0,
-  "contributions": 39,
-  "commits": 32,
+  "contributions": 42,
+  "commits": 34,
   "pull_requests": 1,
   "issues": 0,
   "private_contributions": 0,
@@ -24,38 +24,38 @@
     "count": 15
   },
   "top_language": "TypeScript",
-  "top_language_percent": 68.8,
+  "top_language_percent": 65.9,
   "top_language_bytes": 1238311,
-  "total_language_bytes": 1801142,
+  "total_language_bytes": 1878918,
   "languages": [
     {
       "name": "TypeScript",
       "bytes": 1238311,
-      "percent": 68.8,
+      "percent": 65.9,
       "color": "#3178c6"
     },
     {
       "name": "Python",
-      "bytes": 301302,
-      "percent": 16.7,
+      "bytes": 379078,
+      "percent": 20.2,
       "color": "#3572A5"
     },
     {
       "name": "JavaScript",
       "bytes": 175224,
-      "percent": 9.7,
+      "percent": 9.3,
       "color": "#f1e05a"
     },
     {
       "name": "HTML",
       "bytes": 41763,
-      "percent": 2.3,
+      "percent": 2.2,
       "color": "#e34c26"
     },
     {
       "name": "CSS",
       "bytes": 30648,
-      "percent": 1.7,
+      "percent": 1.6,
       "color": "#663399"
     },
     {
@@ -78,6 +78,15 @@
     }
   ],
   "public_repositories": [
+    {
+      "name": "pansiluchethiya",
+      "description": "Profile README for @pansiluchethiya — cards, stats and content are regenerated automatically by GitHub Actions.",
+      "url": "https://github.com/pansiluchethiya/pansiluchethiya",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "updated_at": "2026-10-21T13:19:18Z"
+    },
     {
       "name": "peak-backend",
       "description": "The backend code for the streaming platform peak movies. ",
@@ -252,7 +261,7 @@
     },
     {
       "date": "2026-10-21",
-      "count": 3
+      "count": 6
     }
   ]
 }
