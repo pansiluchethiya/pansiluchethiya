@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="216" viewBox="0 0 860 216" role="img" aria-labelledby="quoteTitle quoteDesc">
   <title id="quoteTitle">Developer quote of the hour</title>
-  <desc id="quoteDesc">Debugging is twice as hard as writing the code in the first place. — Brian Kernighan</desc>
+  <desc id="quoteDesc">Simplicity is the soul of efficiency. — Austin Freeman</desc>
   <rect width="860" height="216" rx="16" fill="#0d1117"/>
   <rect x="0.5" y="0.5" width="859" height="215" rx="15.5" fill="none" stroke="#30363d"/>
   <text x="28" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#bc8cff">DEVELOPER QUOTE</text>
   <text x="832" y="46" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#6e7681">a new quote every hour</text>
   <line x1="28" y1="60" x2="832" y2="60" stroke="#21262d"/>
   <text x="806" y="126" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="92" font-weight="700" fill="#1c2128">“</text>
-  <text x="42" y="122" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-style="italic" fill="#e6edf3">Debugging is twice as hard as writing the code in the first place.</text>
-  <text x="42" y="148" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#58a6ff">— Brian Kernighan</text>
-  <text x="832" y="202" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#6e7681">updated 21 Oct 2026 · 17:00 UTC</text>
+  <text x="42" y="122" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-style="italic" fill="#e6edf3">Simplicity is the soul of efficiency.</text>
+  <text x="42" y="148" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#58a6ff">— Austin Freeman</text>
+  <text x="832" y="202" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#6e7681">updated 21 Oct 2026 · 21:00 UTC</text>
 </svg>
