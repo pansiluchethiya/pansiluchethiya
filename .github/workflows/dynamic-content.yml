@@ -39,4 +39,5 @@ jobs:
             exit 0
           fi
           git commit -q -m "chore: refresh quote and fun fact [skip ci]"
+          git pull --rebase -q origin main
           git push
