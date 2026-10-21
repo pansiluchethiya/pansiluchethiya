@@ -121,10 +121,9 @@ My daily drivers for writing, reviewing and shipping code.
 ## WakaTime
 
 <!-- WAKATIME:START -->
-> **WakaTime stats are not connected yet.**
-> Add a `WAKATIME_API_KEY` repository secret and the `wakatime.yml` workflow
-> will fill this section automatically — no README editing required.
-> See [`docs/AUTOMATION.md`](docs/AUTOMATION.md) for the setup steps.
+<p align="center">
+  <img src="assets/wakatime.svg?v=25e1f3a56d" alt="WakaTime coding activity for the last seven days" width="100%" />
+</p>
 <!-- WAKATIME:END -->
 
 ---
