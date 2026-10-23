@@ -5,7 +5,7 @@
   <rect x="0.5" y="0.5" width="859" height="309" rx="15.5" fill="none" stroke="#30363d"/>
   <text x="28" y="40" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#e6edf3">Top languages</text>
   <text x="28" y="62" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#8b949e">By code volume across public repositories</text>
-  <text x="832" y="40" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#6e7681">22 Oct 2026</text>
+  <text x="832" y="40" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#6e7681">23 Oct 2026</text>
   
   <g>
     <text x="28" y="106" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#e6edf3">TypeScript</text>
