@@ -37,7 +37,7 @@
     <path d="M0,-12 L3.4,-4.2 L11.8,-3.1 L5.4,2.9 L7.4,11.3 L0,6.7 L-7.4,11.3 L-5.4,2.9 L-11.8,-3.1 L-3.4,-4.2 Z" fill="#3fb950" transform="translate(612,119)"/>
     <text x="650" y="108" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600"
       letter-spacing="1" fill="#3fb950">COMMITS</text>
-    <text x="650" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#e6edf3">36</text>
+    <text x="650" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#e6edf3">41</text>
     <text x="650" y="153" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" fill="#6e7681">in the last 12 months</text>
   </g>
   <g>
@@ -46,7 +46,7 @@
     <path d="M0,-12 L3.4,-4.2 L11.8,-3.1 L5.4,2.9 L7.4,11.3 L0,6.7 L-7.4,11.3 L-5.4,2.9 L-11.8,-3.1 L-3.4,-4.2 Z" fill="#bc8cff" transform="translate(64,223)"/>
     <text x="102" y="212" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600"
       letter-spacing="1" fill="#bc8cff">REPOSITORIES</text>
-    <text x="102" y="240" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#e6edf3">7</text>
+    <text x="102" y="240" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#e6edf3">8</text>
     <text x="102" y="257" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" fill="#6e7681">public, forks included</text>
   </g>
   <g>

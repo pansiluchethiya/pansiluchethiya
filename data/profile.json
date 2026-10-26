@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-10-25T08:34:31Z",
+  "generated_at": "2026-10-26T09:09:05Z",
   "login": "pansiluchethiya",
   "name": "Pansilu Chethiya",
   "bio": "A young, inspired developer whose hobby is creating random, fun projects. ",
-  "repositories": 7,
-  "original_repositories": 4,
+  "repositories": 8,
+  "original_repositories": 5,
   "forks": 3,
   "stars": 6,
   "starred_repositories": 6,
   "followers": 1,
   "following": 0,
-  "contributions": 44,
-  "commits": 36,
+  "contributions": 50,
+  "commits": 41,
   "pull_requests": 1,
   "issues": 0,
   "private_contributions": 0,
-  "current_streak": 0,
+  "current_streak": 1,
   "longest_streak": 2,
-  "active_days": 8,
-  "tracked_days": 365,
+  "active_days": 10,
+  "tracked_days": 366,
   "best_day": {
     "date": "2026-10-07",
     "count": 15
   },
   "top_language": "TypeScript",
-  "top_language_percent": 65.9,
-  "top_language_bytes": 1238311,
-  "total_language_bytes": 1878918,
+  "top_language_percent": 50.1,
+  "top_language_bytes": 1346554,
+  "total_language_bytes": 2688682,
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 1238311,
-      "percent": 65.9,
+      "bytes": 1346554,
+      "percent": 50.1,
       "color": "#3178c6"
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 715164,
+      "percent": 26.6,
+      "color": "#f1e05a"
     },
     {
       "name": "Python",
       "bytes": 379078,
-      "percent": 20.2,
+      "percent": 14.1,
       "color": "#3572A5"
     },
     {
-      "name": "JavaScript",
-      "bytes": 175224,
-      "percent": 9.3,
-      "color": "#f1e05a"
+      "name": "CSS",
+      "bytes": 132493,
+      "percent": 4.9,
+      "color": "#663399"
     },
     {
       "name": "HTML",
-      "bytes": 41763,
-      "percent": 2.2,
+      "bytes": 96944,
+      "percent": 3.6,
       "color": "#e34c26"
-    },
-    {
-      "name": "CSS",
-      "bytes": 30648,
-      "percent": 1.6,
-      "color": "#663399"
     },
     {
       "name": "Kotlin",
@@ -73,7 +73,7 @@
     {
       "name": "Swift",
       "bytes": 1239,
-      "percent": 0.1,
+      "percent": 0.0,
       "color": "#F05138"
     }
   ],
@@ -85,7 +85,16 @@
       "stars": 1,
       "forks": 0,
       "language": "Python",
-      "updated_at": "2026-10-25T05:59:37Z"
+      "updated_at": "2026-10-26T05:58:30Z"
+    },
+    {
+      "name": "peak-player",
+      "description": "The technology behind peak - the movie streaming platform. ",
+      "url": "https://github.com/pansiluchethiya/peak-player",
+      "stars": 0,
+      "forks": 0,
+      "language": "JavaScript",
+      "updated_at": "2026-10-25T14:08:45Z"
     },
     {
       "name": "peak-backend",
@@ -143,10 +152,6 @@
     }
   ],
   "recent_activity": [
-    {
-      "date": "2026-09-26",
-      "count": 0
-    },
     {
       "date": "2026-09-27",
       "count": 0
@@ -253,7 +258,7 @@
     },
     {
       "date": "2026-10-23",
-      "count": 0
+      "count": 1
     },
     {
       "date": "2026-10-24",
@@ -261,6 +266,10 @@
     },
     {
       "date": "2026-10-25",
+      "count": 5
+    },
+    {
+      "date": "2026-10-26",
       "count": 0
     }
   ]
