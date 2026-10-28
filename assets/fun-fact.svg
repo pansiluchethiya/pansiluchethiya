@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="186" viewBox="0 0 860 186" role="img" aria-labelledby="factTitle factDesc">
   <title id="factTitle">Random fun fact</title>
-  <desc id="factDesc">Leif Strand claimed proficiency in the sport of skull fighting.</desc>
+  <desc id="factDesc">Jamaican runner Janielle Josephs took up athletics in part because she &quot;wanted to miss school&quot;.</desc>
   <rect width="860" height="186" rx="16" fill="#0d1117"/>
   <rect x="0.5" y="0.5" width="859" height="185" rx="15.5" fill="none" stroke="#30363d"/>
   <text x="28" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#3fb950">FUN FACT</text>
   <text x="832" y="46" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#6e7681">rotates every hour</text>
   <line x1="28" y1="60" x2="832" y2="60" stroke="#21262d"/>
-  <text x="28" y="116" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" fill="#e6edf3">Leif Strand claimed proficiency in the sport of skull fighting.</text>
-  <text x="832" y="172" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#6e7681">updated 28 Oct 2026 · 01:00 UTC</text>
+  <text x="28" y="103" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" fill="#e6edf3">Jamaican runner Janielle Josephs took up athletics in part because she &quot;wanted to miss</text>
+<text x="28" y="129" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" fill="#e6edf3">school&quot;.</text>
+  <text x="832" y="172" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#6e7681">updated 28 Oct 2026 · 08:00 UTC</text>
 </svg>
