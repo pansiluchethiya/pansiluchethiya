@@ -5,43 +5,43 @@
   <rect x="0.5" y="0.5" width="859" height="309" rx="15.5" fill="none" stroke="#30363d"/>
   <text x="28" y="40" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#e6edf3">Top languages</text>
   <text x="28" y="62" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#8b949e">By code volume across public repositories</text>
-  <text x="832" y="40" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#6e7681">27 Oct 2026</text>
+  <text x="832" y="40" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#6e7681">28 Oct 2026</text>
   
   <g>
     <text x="28" y="106" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#e6edf3">TypeScript</text>
     <rect x="170" y="96" width="560" height="9" rx="4.5" fill="#21262d"/>
-    <rect x="170" y="96" width="279.0" height="9" rx="4.5" fill="#3178c6"/>
-    <text x="832" y="105" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#8b949e">49.8%</text>
+    <rect x="170" y="96" width="278.5" height="9" rx="4.5" fill="#3178c6"/>
+    <text x="832" y="105" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#8b949e">49.7%</text>
   </g>
   <g>
     <text x="28" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#e6edf3">JavaScript</text>
     <rect x="170" y="126" width="560" height="9" rx="4.5" fill="#21262d"/>
-    <rect x="170" y="126" width="149.8" height="9" rx="4.5" fill="#f1e05a"/>
-    <text x="832" y="135" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#8b949e">26.7%</text>
+    <rect x="170" y="126" width="159.4" height="9" rx="4.5" fill="#f1e05a"/>
+    <text x="832" y="135" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#8b949e">28.5%</text>
   </g>
   <g>
     <text x="28" y="166" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#e6edf3">Python</text>
     <rect x="170" y="156" width="560" height="9" rx="4.5" fill="#21262d"/>
-    <rect x="170" y="156" width="68.6" height="9" rx="4.5" fill="#3572A5"/>
-    <text x="832" y="165" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#8b949e">12.3%</text>
+    <rect x="170" y="156" width="59.7" height="9" rx="4.5" fill="#3572A5"/>
+    <text x="832" y="165" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#8b949e">10.7%</text>
   </g>
   <g>
     <text x="28" y="196" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#e6edf3">CSS</text>
     <rect x="170" y="186" width="560" height="9" rx="4.5" fill="#21262d"/>
-    <rect x="170" y="186" width="42.1" height="9" rx="4.5" fill="#663399"/>
-    <text x="832" y="195" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#8b949e">7.5%</text>
+    <rect x="170" y="186" width="44.5" height="9" rx="4.5" fill="#663399"/>
+    <text x="832" y="195" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#8b949e">7.9%</text>
   </g>
   <g>
     <text x="28" y="226" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#e6edf3">HTML</text>
     <rect x="170" y="216" width="560" height="9" rx="4.5" fill="#21262d"/>
-    <rect x="170" y="216" width="17.3" height="9" rx="4.5" fill="#e34c26"/>
-    <text x="832" y="225" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#8b949e">3.1%</text>
+    <rect x="170" y="216" width="15.0" height="9" rx="4.5" fill="#e34c26"/>
+    <text x="832" y="225" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#8b949e">2.7%</text>
   </g>
   <g>
     <text x="28" y="256" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#e6edf3">Kotlin</text>
     <rect x="170" y="246" width="560" height="9" rx="4.5" fill="#21262d"/>
     <rect x="170" y="246" width="3.0" height="9" rx="4.5" fill="#A97BFF"/>
-    <text x="832" y="255" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#8b949e">0.1%</text>
+    <text x="832" y="255" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#8b949e">0.0%</text>
   </g>
-  <text x="28" y="292" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" fill="#6e7681">Aggregated from 8 repositories · 3.1 MB of tracked code · vendored and generated files included</text>
+  <text x="28" y="292" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" fill="#6e7681">Aggregated from 8 repositories · 3.6 MB of tracked code · vendored and generated files included</text>
 </svg>

@@ -28,7 +28,7 @@
     <path d="M0,-12 L3.4,-4.2 L11.8,-3.1 L5.4,2.9 L7.4,11.3 L0,6.7 L-7.4,11.3 L-5.4,2.9 L-11.8,-3.1 L-3.4,-4.2 Z" fill="#58a6ff" transform="translate(338,119)"/>
     <text x="376" y="108" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600"
       letter-spacing="1" fill="#58a6ff">FOLLOWERS</text>
-    <text x="376" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#e6edf3">1</text>
+    <text x="376" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#e6edf3">2</text>
     <text x="376" y="153" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" fill="#6e7681">people watching this account</text>
   </g>
   <g>
@@ -37,7 +37,7 @@
     <path d="M0,-12 L3.4,-4.2 L11.8,-3.1 L5.4,2.9 L7.4,11.3 L0,6.7 L-7.4,11.3 L-5.4,2.9 L-11.8,-3.1 L-3.4,-4.2 Z" fill="#3fb950" transform="translate(612,119)"/>
     <text x="650" y="108" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600"
       letter-spacing="1" fill="#3fb950">COMMITS</text>
-    <text x="650" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#e6edf3">75</text>
+    <text x="650" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#e6edf3">123</text>
     <text x="650" y="153" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" fill="#6e7681">in the last 12 months</text>
   </g>
   <g>
