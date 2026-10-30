@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="168" viewBox="0 0 860 168" role="img" aria-labelledby="streakTitle streakDesc">
   <title id="streakTitle">Contribution streak for pansiluchethiya</title>
-  <desc id="streakDesc">Current streak: 4 days. Longest streak: 4 days. Active days: 13 of 369.</desc>
+  <desc id="streakDesc">Current streak: 0 days. Longest streak: 4 days. Active days: 13 of 370.</desc>
   <rect width="860" height="168" rx="16" fill="#0d1117"/>
   <rect x="0.5" y="0.5" width="859" height="167" rx="15.5" fill="none" stroke="#30363d"/>
   <text x="28" y="40" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#e6edf3">Contribution streak</text>
@@ -8,15 +8,15 @@
   <line x1="300" y1="82" x2="300" y2="146" stroke="#30363d"/>
   <line x1="580" y1="82" x2="580" y2="146" stroke="#30363d"/>
   <text x="28" y="91" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.1" fill="#3fb950">CURRENT STREAK</text>
-  <text x="28" y="125" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#e6edf3">4</text>
+  <text x="28" y="125" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#e6edf3">0</text>
   <text x="65" y="125" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#8b949e">days</text>
-  <text x="28" y="145" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" fill="#6e7681">keep it going</text>
+  <text x="28" y="145" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" fill="#6e7681">no active streak</text>
   <text x="324" y="91" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.1" fill="#58a6ff">LONGEST STREAK</text>
   <text x="324" y="125" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#e6edf3">4</text>
   <text x="361" y="125" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#8b949e">days</text>
   <text x="324" y="145" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" fill="#6e7681">in the last 12 months</text>
   <text x="604" y="91" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.1" fill="#bc8cff">ACTIVE DAYS</text>
   <text x="604" y="125" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#e6edf3">13</text>
-  <text x="658" y="125" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#8b949e">of 369</text>
+  <text x="658" y="125" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="500" fill="#8b949e">of 370</text>
   <text x="604" y="145" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" fill="#6e7681">at least one contribution</text>
 </svg>
