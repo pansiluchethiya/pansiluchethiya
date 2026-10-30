@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="186" viewBox="0 0 860 186" role="img" aria-labelledby="factTitle factDesc">
   <title id="factTitle">Random fun fact</title>
-  <desc id="factDesc">Callimachus&#x27;s Hymn to Delos was composed for the birthday of Ptolemy II in 274 BC.</desc>
+  <desc id="factDesc">Good King Henry allegedly said that he wanted every farmer to have a chicken in a pot.</desc>
   <rect width="860" height="186" rx="16" fill="#0d1117"/>
   <rect x="0.5" y="0.5" width="859" height="185" rx="15.5" fill="none" stroke="#30363d"/>
   <text x="28" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#3fb950">FUN FACT</text>
   <text x="832" y="46" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#6e7681">rotates every hour</text>
   <line x1="28" y1="60" x2="832" y2="60" stroke="#21262d"/>
-  <text x="28" y="116" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" fill="#e6edf3">Callimachus&#x27;s Hymn to Delos was composed for the birthday of Ptolemy II in 274 BC.</text>
-  <text x="832" y="172" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#6e7681">updated 30 Oct 2026 · 06:00 UTC</text>
+  <text x="28" y="116" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" fill="#e6edf3">Good King Henry allegedly said that he wanted every farmer to have a chicken in a pot.</text>
+  <text x="832" y="172" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#6e7681">updated 30 Oct 2026 · 13:00 UTC</text>
 </svg>
