@@ -112,7 +112,7 @@ My daily drivers for writing, reviewing and shipping code.
 
 <!-- SNAKE:START -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pansiluchethiya/pansiluchethiya/output/github-contribution-grid-snake.svg?v=2026-10-29" alt="Animated snake crawling across the contribution graph" width="100%" />
+  <img src="https://raw.githubusercontent.com/pansiluchethiya/pansiluchethiya/output/github-contribution-grid-snake.svg?v=2026-10-30" alt="Animated snake crawling across the contribution graph" width="100%" />
 </p>
 <!-- SNAKE:END -->
 
@@ -122,7 +122,7 @@ My daily drivers for writing, reviewing and shipping code.
 
 <!-- WAKATIME:START -->
 <p align="center">
-  <img src="assets/wakatime.svg?v=5f8cf5b875" alt="WakaTime coding activity for the last seven days" width="100%" />
+  <img src="assets/wakatime.svg?v=a6e557f885" alt="WakaTime coding activity for the last seven days" width="100%" />
 </p>
 <!-- WAKATIME:END -->
 
