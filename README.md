@@ -122,7 +122,7 @@ My daily drivers for writing, reviewing and shipping code.
 
 <!-- WAKATIME:START -->
 <p align="center">
-  <img src="assets/wakatime.svg?v=a4b3ca6892" alt="WakaTime coding activity for the last seven days" width="100%" />
+  <img src="assets/wakatime.svg?v=c5432ff6ec" alt="WakaTime coding activity for the last seven days" width="100%" />
 </p>
 <!-- WAKATIME:END -->
 
